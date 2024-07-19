@@ -15,6 +15,7 @@ defmodule Numerals do
     I: 1
   ]
 
+  @spec decimal_to_roman(non_neg_integer()) :: String.t()
   def decimal_to_roman(number) do
     decimal_to_roman([], number, @roman_to_decimal_mapping)
   end

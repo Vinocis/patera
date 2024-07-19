@@ -1,4 +1,5 @@
 defmodule Kinship do
+  @spec put(list(String.t())) :: list(String.t())
   def put(majesties) do
     majesties
     |> majesties_with_index()
