@@ -28,7 +28,7 @@ Henrique II
 
 Será necessário que seu Elixir esteja na versão 1.17 ou superior.
 Caso queira rodar o projeto via asdf, basta seguir o 
-(tutorial de instalação)[https://github.com/asdf-vm/asdf-elixir] e escolher a versão 1.17.
+[tutorial de instalação](https://github.com/asdf-vm/asdf-elixir) e escolher a versão 1.17.
 
 Com o seu Elixir na versão correta, basta entrar no diretorio do projeto e usar
 o comando `mix escript.build`.
